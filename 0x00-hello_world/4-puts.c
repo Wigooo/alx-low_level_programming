@@ -1,9 +1,6 @@
 #include <stdio.h>
-int main(){
-        /*
-	 * description for function main?
-	 */
+int main(void){
 	putchar('"');
-        puts("Programming is like building a multilingual puzzle");
-        return 0;
+	puts("Programming is like building a multilingual puzzle");
+	return (0);
 }
