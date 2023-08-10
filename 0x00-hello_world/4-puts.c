@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void){
+int main(){
 	// description for function main?
 	putchar('"');
         puts("Programming is like building a multilingual puzzle");
