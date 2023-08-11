@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry poitn
  *
- * Description: A c program that print the alphabet in lowercase then in uppercase
+ * Description: A C program that print the alphabet except,
+ *              q and e
  *
  * Return: Always 0 (success)
 */
@@ -11,18 +12,11 @@
 int main(void)
 {
 	char x = 'a';
-	char X = 'A';
 
-	while (x <= 'z')
+	while (x <= 'z' && x != 'q' && x != 'e')
 	{
 		putchar(x);
 		x++;
-	}
-
-	while (X <= 'Z')
-	{
-		putchar(X);
-		X++;
 	}
 	putchar('\n');
 
