@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
  * Description: A c Program that write the alphabet
  *
- * return: 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
 {
 	char x = 'a';
 
-	while (x < 'z')
+	while (x <= 'z')
 	{
 		putchar(x);
 		x++;
