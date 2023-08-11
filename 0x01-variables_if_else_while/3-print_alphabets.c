@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: A C program that prints the alphabet in lowercase, then in uppercase.
+ * Description: A C program that prints the alphabet in lowercase,
+ *              then in uppercase.
  *
  * Return: Always 0 (success)
 */
