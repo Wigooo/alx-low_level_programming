@@ -3,17 +3,17 @@
 /**
  * main - Entry point
  *
- * Description: A c program that type the base 16 chars
+ * Description: A C program that prints the base 16 characters
  *
- * Return: ALways 0 (success)
-*/
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
 	char x;
 	char y = 'a';
 
-	for (x = '0'; x < 10; x++)
+	for (x = '0'; x <= '9'; x++)
 	{
 		putchar(x);
 	}
