@@ -12,9 +12,9 @@ int main(void)
 {
 	int  x = 0;
 
-	while (x < 10)
+	while (x <= 9)
 	{
-		putchar(x + 0);
+		putchar(x + 48);
 
 		if (x != 9)
 		{
