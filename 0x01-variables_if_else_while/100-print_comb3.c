@@ -4,9 +4,9 @@
  * main - entry point
  *
  * Description: A c program that print all
- *              possible outvoems of 2 digits
+ *              possible two-diigit combinations.
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
@@ -16,8 +16,7 @@ int main(void)
 	while (x < 10)
 	{
 		y = 0;
-		
-		while (y <10)
+		while (y < 10)
 		{
 			if (x != y && x < y)
 			{
