@@ -1,20 +1,14 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * Description: A C program that print a to z
- *
- * Return: Always 0 (success)
+ * print_alphabet - print alphabet from a to z
 */
 
-int main(void)
+void print_alphabet(void)
 {
 	int x;
 
 	for (x = 'a'; x <= 'z'; x++)
 		_putchar(x);
 	_putchar('\n');
-
-	return (0);
 }
