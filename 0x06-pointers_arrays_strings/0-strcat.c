@@ -19,7 +19,7 @@ char *_strcat(char *dest, char *src)
 		x++;
 
 	for (y = 0; src[y] ; y++)
-		dest[x++] = src[y++];
+		dest[x++] = src[y];
 
 	return (dest);
 }
