@@ -9,11 +9,11 @@
 
 int isLower(char c)
 {
-	return (c >= 97 && c <= 122)
+	return (c >= 97 && c <= 122);
 }
 
 /**
- * isDelimter - determine ascii delimeter
+ * isDelimiter - determine ascii delimeter
  * @c: char
  * Return: 1 True, 0 False
 */
