@@ -26,5 +26,5 @@ char *cap_string(char *x)
 			foundDelimit = 0;
 		x++;
 	}
-	return (y)
+	return (y);
 }
