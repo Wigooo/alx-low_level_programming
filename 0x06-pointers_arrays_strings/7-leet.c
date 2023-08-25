@@ -12,7 +12,7 @@ char *leet(char *x)
 {
 	char *y = x;
 	char z[] = {'A', 'E', 'O', 'T', 'L'};
-	int a[] = {4, 3, 0, 7, 1}
+	int a[] = {4, 3, 0, 7, 1};
 	unsigned int b;
 
 	while (*x)
