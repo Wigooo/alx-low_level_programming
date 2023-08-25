@@ -32,7 +32,7 @@ int isDelimiter(char c)
 /**
  * *cap_string - capitalizes all words of a string
  *
- * @x: pointer
+ * @z: pointer
  *
  * Return: string
 */
