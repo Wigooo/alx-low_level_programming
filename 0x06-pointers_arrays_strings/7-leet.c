@@ -21,7 +21,7 @@ char *leet(char *x)
 		{
 			if (*x == z[b] || *x == z[b] + 32)
 			{
-				*c = 48 + a[b];
+				*x = 48 + a[b];
 			}
 		}
 		x++;
