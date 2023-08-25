@@ -24,7 +24,7 @@ int isDelimiter(char c)
 	char delimiter[] = " \t\n,.!?\"[]{}";
 
 	for (x = 0; x < 12; x++)
-		if (c == delimter[x])
+		if (c == delimiter[x])
 			return (1);
 	return (0);
 }
@@ -48,7 +48,7 @@ char *cap_string(char *z)
 			foundDelimit = 1;
 		else if (isLower(*z) && foundDelimit)
 		{
-			*x -= 32;
+			*z -= 32;
 			foundDelimit = 0;
 		}
 		else
