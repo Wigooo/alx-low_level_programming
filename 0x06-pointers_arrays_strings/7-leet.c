@@ -19,7 +19,7 @@ char *leet(char *x)
 	{
 		for (b = 0; b < sizeof(z) / sizeof(char); b++)
 		{
-			if (*x == z[b] || *c == z[b] + 32)
+			if (*x == z[b] || *x == z[b] + 32)
 			{
 				*c = 48 + a[b];
 			}
