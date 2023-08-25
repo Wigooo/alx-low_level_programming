@@ -21,7 +21,7 @@ int isLower(char c)
 int isDelimiter(char c)
 {
 	int x;
-	char delimiter[] = " \t\n,.!?\"[][]";
+	char delimiter[] = " \t\n,.!?\"[]{}";
 
 	for (x = 0; x < 12; x++)
 		if (c == delimter[x])
@@ -37,23 +37,23 @@ int isDelimiter(char c)
  * Return: string
 */
 
-char *cap_string(char *x)
+char *cap_string(char *z)
 {
-	char *y = x;
+	char *y = z;
 	int foundDelimit = 1;
 
-	while (*x)
+	while (*z)
 	{
-		if (isDelimiter(*x))
+		if (isDelimiter(*z))
 			foundDelimit = 1;
-		else if (isLower(*x) && foundDelimit)
+		else if (isLower(*z) && foundDelimit)
 		{
 			*x -= 32;
 			foundDelimit = 0;
 		}
 		else
 			foundDelimit = 0;
-		x++;
+		z++;
 	}
 	return (y);
 }
