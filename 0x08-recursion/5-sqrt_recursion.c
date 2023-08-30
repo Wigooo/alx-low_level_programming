@@ -28,13 +28,13 @@ int _sqrt_recursion(int n)
 
 int square(int x, int y)
 {
-	if (y * y == n)
+	if (y * y == x)
 	{
 		return (y);
 	}
-	else if (y * y < n)
+	else if (y * y < x)
 	{
-		return (sqaure(n, y + 1));
+		return (sqaure(x, y + 1));
 	}
 	else
 		return (-1);
