@@ -34,7 +34,7 @@ int square(int x, int y)
 	}
 	else if (y * y < x)
 	{
-		return (sqaure(x, y + 1));
+		return (square(x, y + 1));
 	}
 	else
 		return (-1);
