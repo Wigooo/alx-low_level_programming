@@ -18,13 +18,9 @@ int main(int argc, char *argv[])
 
 	while (--argc)
 	{
-		for (y = argv[argc]; *y; c++)
-		{
+		for (y = argv[argc]; *y; y++)
 			if (*y < '0' || *y > '9')
-			{
 				return (printf("Error\n"), 1);
-			}
-		}
 		x += atoi(argv[argc]);
 	}
 	printf("%d\n", x);
