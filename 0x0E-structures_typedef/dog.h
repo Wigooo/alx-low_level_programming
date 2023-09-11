@@ -4,11 +4,11 @@
 /**
  * struct dog - struct
  *
- * @name: char
+ * @name: dog's name
  *
- * @age: float
+ * @age: dog's age
  *
- * @owner: char
+ * @owner: dog's owner name
 */
 
 struct dog
