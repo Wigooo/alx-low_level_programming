@@ -13,13 +13,13 @@ int _strlen(const char *str)
 {
 	int len = 0;
 
-	while(*str++)
+	while (*str++)
 		len++;
 	return (len);
 }
 
 /**
- * -strcpy - return @dest with a copy of string from @src
+ * _strcopy - return @dest with a copy of string from @src
  *
  *  @src: string to copy
  *
@@ -28,7 +28,7 @@ int _strlen(const char *str)
  *  Return: @dest
 */
 
-char *_strcpy(char *dest, char *src)
+char *_strcopy(char *dest, char *src)
 {
 	int x;
 
@@ -66,12 +66,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if ((*dog).name == NULL)
 	{
 		free(dog);
-		return(NULL);
+		return (NULL);
 	}
 
-	dog->name = _strcpy(dog->name, name);
+	dog->name = _strcpoy(dog->name, name);
 	dog->age = age;
-	dog->owner = _strcpy(dog->owner, owner);
+	dog->owner = _strcpoy(dog->owner, owner);
 
 	return (dog);
 }
