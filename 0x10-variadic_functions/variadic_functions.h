@@ -1,7 +1,8 @@
-#ifndef VARIDIC_FUNCTIONS_H
-#define VARIDIC_FUNCTIONS_H
+#ifndef VARIDIC_H
+#define VARIDIC_H
 
 #include <stdlib.h>
+#include <stdarg.h>
 #include <stdio.h>
 
 int sum_them_all(const unsigned int n, ...);
