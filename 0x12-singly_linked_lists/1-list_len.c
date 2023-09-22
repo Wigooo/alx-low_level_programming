@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * lis_len - list the length
+ * list_len - list the length
  *
  * @h: pointer
  *
