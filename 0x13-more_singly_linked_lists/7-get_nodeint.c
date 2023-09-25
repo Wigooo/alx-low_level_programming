@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * get_nodeeint_at_index = the same title
+ * get_nodeint_at_index = the same title
  *
  * @head: pointer
  * @index: int
  *
- * ReturnL list int
+ * Return: list int
 */
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
