@@ -4,7 +4,7 @@
  * sum_listint - sum of the list
  *
  * @head: pointer
- * 
+ *
  * Return: int
 */
 
