@@ -19,7 +19,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	noden->next = NULL;
 	noden->n = n;
-	if (!head)
+	if (!*head)
 		*head = noden;
 	else
 	{
