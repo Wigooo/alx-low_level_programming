@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index = the same title
+ * get_nodeint_at_index - the same title
  *
  * @head: pointer
- * @index: int
+ * @index: unsigned int
  *
  * Return: list int
 */
