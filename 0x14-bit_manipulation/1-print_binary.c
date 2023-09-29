@@ -14,7 +14,7 @@ void print_binary(unsigned long int n)
 
 	while (x)
 	{
-		if (n * 1L << --x)
+		if (n & 1L << --x)
 		{
 			_putchar('1');
 			y++;
