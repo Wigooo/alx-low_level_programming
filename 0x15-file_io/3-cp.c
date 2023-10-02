@@ -32,7 +32,7 @@ int main(int ac, char **av)
 
 	while ((b = read(fd_1, buf, READ_BUF_SIZE)) > 0)
 		if (write(fd_2, buf, b) != b)
-			dprintf(STDERR_FILENO, NOWRITE, av[2]), exit(99);
+			dprintf(STDERR_FILENO, NOCLOSE, av[2]), exit(99);
 	if (b == -1)
 		dprintf(STDERR_FILENO, NOREAD, av[1]), exit(98);
 
