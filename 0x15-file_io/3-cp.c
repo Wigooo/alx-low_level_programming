@@ -41,7 +41,7 @@ int main(int ac, char **av)
 	if (fd_1)
 		dprintf(STDERR_FILENO, NOCLOSE, fd_1), exit(100);
 	if (fd_2)
-		dprintf(STDERR_FILENO, NOCLOSE, fd_1	), exit(100);
+		dprintf(STDERR_FILENO, NOCLOSE, fd_1), exit(100);
 
 	return (EXIT_SUCCESS);
 }
